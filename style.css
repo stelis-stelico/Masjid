@@ -19,4 +19,5 @@ a {
 }
 .btn:hover {
     background-color: #0081C9; 
+    color: white;
 }
