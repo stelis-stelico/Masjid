@@ -9,9 +9,13 @@ a {
     text-decoration: none;
     color: black;
 }
-.feature {
+.feature-section {
     background-image: url(img/mosque.jpg);
 }
+.feature {
+    padding: 10% 0;
+}
+
 .btn {
     background-color: #0081C9;
     color: white;
@@ -20,4 +24,8 @@ a {
 .btn:hover {
     background-color: #0081C9; 
     color: white;
+}
+.donate-btn:hover {
+    background-color: transparent;
+    border-color: white;
 }
