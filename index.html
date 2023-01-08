@@ -11,16 +11,12 @@
   <body>
 
     <!-- Header -->
-    <div class="container-fluid">
-      <div class="row px-3">
-        <div class="col-md-11">
-          <marquee direction="right">
-            This is a sample scrolling text that has scrolls texts to right.
-          </marquee>
-        </div>
-        <div class="col-md-1 text-center">
-          <a href="#">+2348067895432</a>
-        </div>
+    <div class="container-fluid text-center">
+      <div class="d-md-flex justify-content-between">
+        <marquee direction="right">
+          This is a sample scrolling text that has scrolls texts to right.
+        </marquee>
+        <a href="#">+2348067895432</a>
       </div>
     </div>
 
@@ -54,7 +50,7 @@
 
   <!-- Feature -->
   <section class="feature-section text-light p-5 text-center">
-    <div class="feature">
+    <div class="container-fluid feature">
       <h2 class="fs-1">
         <strong>JOIN US TO DONATE FOR ALLAH'S CAUSE</strong>
         </h2>
@@ -62,59 +58,43 @@
       <div class="d-grid col-3 mx-auto py-4">
         <button class="btn btn-lg donate-btn" type="button">DONATE</button>
       </div>
-    </div>
-    
+    </div> 
   </section>
 
   <!-- Donators -->
-  <section class="donation p-4 text-center">
+  <section class="donation p-3 text-center">
     <div class="container">
       <h1 class="fw-bold">Giving is a Virtue</h1>
-      <div class="row py-4">
-        <div class="col">
-          <h5>Amount Realized: #500,000</h5>
-        </div>
-        <div class="col">
-          <button class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#donators">See all Donators</button>
-        </div>
+      <div class="d-md-flex justify-content-between">
+        <h5 class="px">Amount Realized: #500,000</h5>
+        <button class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#donators">See all Donators</button>
       </div>
     </div>
   </section>
 
-  <section class="p-4">
+<!-- mosque images -->
+  <section class="p-5 text-center">
     <div class="container">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/mosque1.jpg" class="d-block w-100 position-relative" alt="...">
-            <button type="button" class="btn btn-lg py-3 px-5 position-absolute top-50 start-50 translate-middle">DONATE</button>
-          </div>
-          <div class="carousel-item position-relative">
-            <img src="img/mosque2.jpg" class="d-block w-100" alt="...">
-            <button type="button" class="btn btn-lg py-3 px-5 position-absolute top-50 start-50 translate-middle">DONATE</button>
-          </div>
-          <div class="carousel-item position-relative">
-            <img src="img/mosque1.jpg" class="d-block w-100" alt="...">
-            <button type="button" class="btn btn-lg py-3 px-5 position-absolute top-50 start-50 translate-middle">DONATE</button>
-          </div>
-          <div class="carousel-item position-relative">
-            <img src="img/mosque2.jpg" class="d-block w-100" alt="...">
-            <button type="button" class="btn btn-lg py-3 px-5 position-absolute top-50 start-50 translate-middle">DONATE</button>
-          </div>
+      <h1 class="fw-bold">Proposed Mosque</h1>
+      <div class="row py-4 g-5">
+        <div class="col position-relative">
+          <img class="" src="img/mosque1.jpg" alt="">
+          <button type="button" class="btn btn-lg py-2 px-4 position-absolute top-50 start-50 translate-middle">DONATE</button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="col position-relative">
+          <img src="img/mosque2.jpg" alt="">
+          <button type="button" class="btn btn-lg py-2 px-4 position-absolute top-50 start-50 translate-middle">DONATE</button>
+        </div>
+        <div class="col position-relative">
+          <img src="img/mosque3.jpg" alt="">
+          <button type="button" class="btn btn-lg py-2 px-4 position-absolute top-50 start-50 translate-middle">DONATE</button>
+        </div>
       </div>
-
     </div>
-    
   </section>
+
+  <!-- cards -->
+
 
 
 
