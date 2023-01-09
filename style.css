@@ -33,3 +33,6 @@ a {
 .donation {
     background-color: #c5c6c0;
 }
+.img {
+    max-width: inherit;
+}
