@@ -33,6 +33,10 @@ a {
 .donation {
     background-color: #c5c6c0;
 }
-.img {
-    max-width: inherit;
+.images {
+    margin: 0 0.2px;
+}
+.mosque-btn {
+    background-color: transparent;
+    border-color: white;
 }
