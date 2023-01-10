@@ -37,6 +37,8 @@ a {
     margin: 0 0.2px;
 }
 .mosque-btn {
-    background-color: transparent;
-    border-color: white;
+   opacity: 60%;
+}
+.cards{
+   background-color: #c5c6c0; 
 }
